@@ -16,7 +16,7 @@
         "correct": "Au moment de la compilation"
     },
     {
-        "title": "6. Comment ça s’appelle si un objet a son propre cycle de vie?",
+        "title": "3. Comment ça s’appelle si un objet a son propre cycle de vie?",
         "answer": "Agrégation",
         "answer_1": "Composition",
         "answer_2": "Encapsulation",
@@ -24,7 +24,7 @@
         "correct": "Association"
     },
     {
-        "title": "5. Quel concept de Java est utilisé en combinant des méthodes et des attributs dans une classe?",
+        "title": "4. Quel concept de Java est utilisé en combinant des méthodes et des attributs dans une classe?",
         "answer": "Polymorphisme",
         "answer_1": "Encapsulation",
         "answer_2": "Abstraction",
@@ -32,7 +32,7 @@
         "correct": "Encapsulation"
     },
     {
-        "title": "Lequel de ces packages contient toutes les classes de collection?",
+        "title": "5. Lequel de ces packages contient toutes les classes de collection?",
         "answer": "java.awt",
         "answer_1": "java.lang",
         "answer_2": "java.util",

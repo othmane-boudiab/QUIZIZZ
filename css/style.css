@@ -17,15 +17,12 @@ body {
   --color-quaternary: #fff;
   --color-error: #ff5a5f;
   --color-success: #00c292;
+  --color-score: #e9edff;
 }
 
 .container {
   max-width: 1024px;
   margin: auto;
-  /* padding: 20px; */
-  /* background: var(--color-backround);
-  border-radius: 4px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
 }
 
 /* nav bar */
@@ -52,6 +49,32 @@ header {
   font-weight: 600;
 }
 
+/* Score */
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0 0 0;
+}
+
+.score_msg {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-dark);
+}
+
+.score_block {
+  background: var(--color-score);
+  color: var(--color-primary);
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+}
+
+.hiding {
+  display: none;
+}
+
 /* Questions */
 
 form.container {
@@ -61,8 +84,75 @@ form.container {
 .block {
   max-width: 1024px;
   margin: 1rem 0;
-  padding: 20px;
+  padding: 1rem;
   background: var(--color-quaternary);
   border-radius: 4px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.block_title {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: var(--color-dark);
+  margin-bottom: 0.8em;
+}
+
+.block_answer {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: var(--color-dark);
+  margin-bottom: 0.2em;
+}
+
+.block_answer .answer {
+  margin-right: 0.5em;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5em;
+}
+
+.steps span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5em;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  font-size: 1em;
+  font-weight: 600;
+  color: var(--color-dark);
+}
+
+.active {
+  background: var(--color-primary) !important;
+  color: var(--color-quaternary) !important;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 4px;
+  background: var(--color-primary);
+  color: var(--color-quaternary);
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
