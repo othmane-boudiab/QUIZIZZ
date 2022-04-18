@@ -1,0 +1,42 @@
+[
+    {
+        "title": "6. Lequel des éléments suivants n’est pas un concept POO en Java?",
+        "answer": "Héritage",
+        "answer_1": "Encapsulation",
+        "answer_2": "Polymorphisme",
+        "answer_3": "Compilation",
+        "correct": "Compilation"
+    },
+    {
+        "title": "7. Quand la surcharge de méthode est-elle déterminée?",
+        "answer": "Au moment de l’exécution",
+        "answer_1": "Au moment de la compilation",
+        "answer_2": "Au moment du codage",
+        "answer_3": "Au moment de l’exécution",
+        "correct": "Au moment de la compilation"
+    },
+    {
+        "title": "8. Comment ça s’appelle si un objet a son propre cycle de vie?",
+        "answer": "Agrégation",
+        "answer_1": "Composition",
+        "answer_2": "Encapsulation",
+        "answer_3": "Association",
+        "correct": "Association"
+    },
+    {
+        "title": "9. Quel concept de Java est utilisé en combinant des méthodes et des attributs dans une classe?",
+        "answer": "Polymorphisme",
+        "answer_1": "Encapsulation",
+        "answer_2": "Abstraction",
+        "answer_3": "Héritage",
+        "correct": "Encapsulation"
+    },
+    {
+        "title": "10. Lequel de ces packages contient toutes les classes de collection?",
+        "answer": "java.awt",
+        "answer_1": "java.lang",
+        "answer_2": "java.util",
+        "answer_3": " java.net",
+        "correct": "java.util"
+    }
+]
